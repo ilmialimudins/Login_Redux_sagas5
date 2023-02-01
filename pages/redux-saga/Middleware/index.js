@@ -9,7 +9,7 @@ function* watchAll(){
         takeEvery(ActionTypeUsr.GET_SIGNIN_REQUEST,handleUsrSignin),
         takeEvery(ActionTypeUsr.POST_SIGNOUT_REQUEST,handleUsrSignout),
         takeEvery(ActionTypeUsr.ADD_SIGNUP_REQUEST,handleUsrSignup),
-        takeEvery(ActionTypeUser.GET_USER_REQUEST,handleGetRegion),
+        takeEvery(ActionTypeUser.GET_USER_REQUEST,handleGetRegion), //
         takeEvery(ActionTypeUser.GETONE_USER_REQUEST,handleGetOneRegion),
         takeEvery(ActionTypeUser.ADD_USER_REQUEST,handleAddRegion),
         takeEvery(ActionTypeUser.DEL_USER_REQUEST,handleDelRegion),
